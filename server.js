@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 // Prometheus server URL
-const nodeExporterUrl = 'http://1localhost:9100'; // Change this to your Prometheus server URL
+const nodeExporterUrl = 'http://localhost:9100'; // Change this to your Prometheus server URL
 
 // Function to fetch metrics from Prometheus
 async function fetchMetrics() {
